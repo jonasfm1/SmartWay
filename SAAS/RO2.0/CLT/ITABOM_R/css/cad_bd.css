@@ -1,0 +1,577 @@
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+    font-size:10px;
+
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 24px;
+  left:92px;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 7px;
+  width: 120px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 11px;
+  line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 24px;
+  left: 96px;
+  margin-left: -78px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+
+
+input:focus{
+outline:none;
+}
+
+/**total
+ * Tooltip Styles
+ */
+
+ hr {
+		
+	
+	height: 10px
+
+	}
+
+
+	#botao_edit{
+		width: 30px;
+		height: 30px;
+		top: 40px;
+		left: 716px;
+	
+		position: absolute;
+	
+			z-index:9999999;
+			color: #000;
+			
+			
+		}
+
+		#pag1_edit{
+			position: fixed;
+				width: 100%;
+				left: 0px;
+				top: 0px;
+				height:100%;
+			
+			z-index:999999;
+			
+		
+			background-repeat: repeat;
+			background-size: cover;
+			background-color: white;
+			opacity: 0.7;
+			
+			}
+		
+			#pag2_edit{
+				width: 700px;
+				height: 424px;
+				top: 60px;
+				left: 20px;
+			
+				position: absolute;
+				border: 1px solid silver;
+				
+				background-color: white;
+					z-index:999999;
+					
+					
+				}
+		
+
+				#pag1_geo{
+					position: fixed;
+					width: 100%;
+					left: 0px;
+					top: 0px;
+					height:100%;
+				
+				z-index:999999;
+				
+			
+				background-repeat: repeat;
+				background-size: cover;
+				background-color: white;
+				opacity: 0.7;
+					}
+				
+				
+				  #pag2_geo{
+					width: 700px;
+					height: 404px;
+					top: 60px;
+					left: 20px;
+				
+					position: absolute;
+					border: 1px solid silver;
+					background-color: white;
+				
+						z-index:999999;
+						
+					
+					}
+			
+					#botao_geo{
+						width: 30px;
+						height: 30px;
+						top: 40px;
+						left: 716px;
+					
+						position: absolute;
+					
+							z-index:9999999;
+							color: #000;
+							
+							
+						}
+
+.jquery-waiting-base-container {
+		position: absolute;
+	left: -2px;
+	top: -2px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	display: block;
+	z-index: 999999;
+
+	background-color:#FFFFFF;
+	
+	background-image: url("../imgs/loading.gif");
+	background-repeat: no-repeat;
+	background-position: 50% 35%;
+	padding-top: 250px;
+}
+#total{
+	position:absolute;
+		 
+	width: 98%;
+	top: 60px;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 200px;
+	
+
+  }
+
+  table.bordasimples {
+	border-collapse: collapse;
+	border: 1px solid #cccccc;
+	background-color: #FFFFFF	
+	}
+
+table.bordasimples tr td {
+	
+	font-size: 10px;
+	border: 1px solid #cccccc;
+	;
+
+text-align:left;
+
+cursor: pointer;
+
+margin-left: 2px;
+
+
+}
+	#apDiv12x {
+	position: absolute;
+	width: 1098px;
+	height: 194px;
+	z-index: 1;
+	left: 36px;
+	top: 436px;
+	border: 1px solid #579bd3;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 10px;
+	
+}
+	#nome {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	width: 365px;
+	top: 41px;
+	left: 41px;
+	height: 30px;
+	}
+	
+	#nome input {
+	border: 1px solid #d3d5d6;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	height: 18px;
+	padding-left:5px;
+	width:200px;
+	}
+	
+	#quantidade {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	width: 365px;
+	top: 79px;
+	left: 41px;
+	height: 27px;
+	}
+	#quantidade select {
+	border: 1px solid #d3d5d6;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	height: 20px;	
+	width: 208px;
+    
+    overflow: hidden;
+   	background:transparent;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	}
+	
+	#tipo {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	width: 312px;
+	top: 21px;
+	left: 797px;
+	height: 172px;
+	}
+   
+   #cor {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	width: 365px;
+	top: 114px;
+	left: 41px;
+	height: 53px;
+	}
+    #cor input {
+	position: absolute;
+	left: 64px;
+	top: 0px;
+	padding-left:30px;
+	}
+
+#peso {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 354px;
+	top: 41px;
+	left: 420px;
+	height: 35px;
+	}
+#peso input {
+	border: 1px solid #d3d5d6;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	height: 18px;
+	padding-left:5px;
+	width:200px;
+	}
+
+#volume {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 355px;
+	top: 77px;
+	left: 420px;
+	height: 35px;
+	}
+#volume input {
+	border: 1px solid #d3d5d6;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	height: 18px;
+	padding-left:5px;
+	width:200px;
+	}
+#valor {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 355px;
+	top: 115px;
+	left: 420px;
+	height: 35px;
+	}
+#valor input {
+	border: 1px solid #d3d5d6;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	height: 18px;
+	padding-left:5px;
+	width:200px;
+	}
+
+#ativo {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 355px;
+	top: 153px;
+	left: 420px;
+	height: 35px;
+	}
+	
+	#ativo input[type="checkbox"] {
+   border: 1px solid #d3d5d6;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	
+	
+}
+
+	#tipo_1 {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 22px;
+	top: 87px;
+	left: 893px;
+	height: 24px;
+	}
+		#tipo_2 {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 22px;
+	top: 87px;
+	left: 973px;
+	height: 24px;
+	}
+		#tipo_3 {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 22px;
+	top: 87px;
+	left: 1053px;
+	height: 24px;
+	}
+	
+	#tipo_4 {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 22px;
+	top: 175px;
+	left: 893px;
+	height: 24px;
+	}
+	
+	#tipo_5 {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 22px;
+	top: 175px;
+	left: 973px;
+	height: 24px;
+	}
+	#tipo_6 {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 22px;
+	top: 175px;
+	left: 1053px;
+	height: 24px;
+	}
+	#apDiv12xx {
+	position: absolute;
+	width: 1238px;
+	height: 78px;
+	z-index: 1;
+	left: -2px;
+	top: 337px;
+	padding: 10px;
+	
+}
+	
+	#apDiv13 {
+	position: absolute;
+	width: 90px;
+	height: 32px;
+	z-index: 1;
+	left: 1196px;
+	top: 620px;
+}
+
+	#apDiv13c {
+	position: absolute;
+	width: 90px;
+	height: 32px;
+	z-index: 1;
+	left: 1196px;
+	top: 620px;
+}
+#cor_volta{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 3px;
+	left: 93px;
+	}
+
+	#total a:link {
+		color: black;
+	  }
+
+	  
+	  /* visited link */
+	  #total a:visited {
+		color: black;
+	  }
+	  
+	  /* mouse over link */
+	  #total a:hover {
+		color: red;
+	  }
+	  
+	  /* selected link */
+	  #total a:active {
+		color: red;
+	  }
+	
+
+input[type="search"]
+{
+    background: transparent;
+    border: none;
+	border: 1px solid #d3d5d6;
+	
+	padding: 10px;
+	width:300px;
+	height:34px;
+	font-size: 11px;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #eef2f6 inset;
+}
+
+#apDiv21 {
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	z-index: 11;
+	top: 11%;
+	left: 0px;
+	background-color:#EBEBEB;
+}
+
+input[type=submit] {  
+	color: #fff;
+	border: 1px solid #2867b2;
+	background: #2867b2;
+
+	
+	font-size:11px;
+	
+	font-weight:bold;
+	height: 34px;
+	width:96px;
+	
+    }  
+	
+input[type=submit]:hover{
+	background-color: #888888;
+	transition: background-color 0.2s;
+  cursor:pointer;
+  color: #FFF;
+  border: 1px solid #888888;
+    }  
+
+
+#apDiv3 {
+	position: fixed;
+	width: 76px;
+	height: 53px;
+	z-index: 99999999;
+	top: 0px;
+	left: 0px;
+}
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #000000;
+}
+::-webkit-scrollbar-thumb {
+    background: #d3d5d6;
+}
+
+
+::-webkit-scrollbar-track:horizontal {
+    background-color: #F4F4F4;
+ }
+
+ ::-webkit-scrollbar:horizontal {
+  
+    height: 6px;
+    background: #000000;
+}
+::-webkit-scrollbar-thumb:horizontal {
+    background: #d3d5d6;
+}
+

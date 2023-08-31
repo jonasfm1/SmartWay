@@ -1,0 +1,138 @@
+body{
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+	}
+
+#tabela{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:9px;
+	
+	}
+	
+	input[type="text"]
+{
+    background: transparent;
+    border: none;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:9px;
+	text-align:center;
+}
+
+
+#botao{
+	position: absolute;
+	left: 76%;
+	top: 0px;
+	z-index: 900;
+	}
+#popup{
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	}
+#pag1{
+	position: absolute;
+	width: 75%;
+	left: 10px;
+	top: 10px;
+	height:720px;
+	border: solid;
+	border-color: #115379;
+	border-width: 15px;
+	background-color:#2B91CD;
+	box-shadow: 2px 2px 2px #888888;
+	}  
+	
+	#mapCanvas {
+    width: 100%;
+    height: 200px;
+  }	
+  
+  #total{
+    width: 98%;
+    height: 570px;
+	overflow: auto;
+	border: 2px solid #666;
+background-color: #ccc;
+padding: 12px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+	
+
+  }
+  
+  
+
+.button_example{
+border:1px solid #91b41a; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+ background-color: #b6e026; background-image: -webkit-gradient(linear, left top, left bottom, from(#b6e026), to(#abdc28));
+ background-image: -webkit-linear-gradient(top, #b6e026, #abdc28);
+ background-image: -moz-linear-gradient(top, #b6e026, #abdc28);
+ background-image: -ms-linear-gradient(top, #b6e026, #abdc28);
+ background-image: -o-linear-gradient(top, #b6e026, #abdc28);
+ background-image: linear-gradient(to bottom, #b6e026, #abdc28);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#b6e026, endColorstr=#abdc28);
+}
+
+.button_example:hover{
+ border:1px solid #718c14;
+ background-color: #95b91a; background-image: -webkit-gradient(linear, left top, left bottom, from(#95b91a), to(#8bb41d));
+ background-image: -webkit-linear-gradient(top, #95b91a, #8bb41d);
+ background-image: -moz-linear-gradient(top, #95b91a, #8bb41d);
+ background-image: -ms-linear-gradient(top, #95b91a, #8bb41d);
+ background-image: -o-linear-gradient(top, #95b91a, #8bb41d);
+ background-image: linear-gradient(to bottom, #95b91a, #8bb41d);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#95b91a, endColorstr=#8bb41d);
+}
+
+
+.button_example1{
+border:1px solid #25729a; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+ background-color: #3093c7; background-image: -webkit-gradient(linear, left top, left bottom, from(#3093c7), to(#1c5a85));
+ background-image: -webkit-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -moz-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -ms-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -o-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: linear-gradient(to bottom, #3093c7, #1c5a85);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3093c7, endColorstr=#1c5a85);
+}
+
+.button_example1:hover{
+ border:1px solid #1c5675;
+ background-color: #26759e; background-image: -webkit-gradient(linear, left top, left bottom, from(#26759e), to(#133d5b));
+ background-image: -webkit-linear-gradient(top, #26759e, #133d5b);
+ background-image: -moz-linear-gradient(top, #26759e, #133d5b);
+ background-image: -ms-linear-gradient(top, #26759e, #133d5b);
+ background-image: -o-linear-gradient(top, #26759e, #133d5b);
+ background-image: linear-gradient(to bottom, #26759e, #133d5b);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759e, endColorstr=#133d5b);
+}
+
+
+#botoes{
+	width:100%;
+	height:80px;
+
+	}
+	
+.jquery-waiting-base-container {
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	display: block;
+	z-index: 9999997;
+	opacity: 0.75;
+	-moz-opacity: 0.75;
+	filter: alpha(opacity = 75);
+	background: black;
+	background-image: url("../imgs/loading.gif");
+	background-repeat: no-repeat;
+	background-position: 50% 25%;
+	text-align: center;
+	overflow: hidden;
+	font-weight: bold;
+	color: white;
+	padding-top: 250px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 28px;
+}

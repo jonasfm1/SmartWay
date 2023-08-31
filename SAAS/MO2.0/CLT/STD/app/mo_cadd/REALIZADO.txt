@@ -1,0 +1,85 @@
+joel;3348;Dacarto  Servico Interno ();(REAGEN) Reagendar ;2017-03-09 12:37:03;-23.0; -47.0;3
+
+joel;3349;KRONA TUBOS E CONEXOES S A (B);Chegada;2017-03-09 12:37:50;-23.0; -47.0;1
+joel;3349;KRONA TUBOS E CONEXOES S A (B);Saida;2017-03-09 12:37:58;-23.0; -47.0;3
+joel;3349;KRONA TUBOS E CONEXOES S A (B);(AUSEN) Cliente Ausente ;2017-03-09 12:38:21;-23.0; -47.0;2
+
+joel;3355;CRISTAL MASTER IND E COM (E);(BIMESTRAL) Visita Bimestral ;2017-03-09 12:39:00;-23.0; -47.0;2
+
+joel;3355;CRISTAL MASTER IND E COM (E);(PF-DB) Pedido Fechado (Dacarto) ;2017-03-09 12:39:12;-23.0; -47.0;1
+
+joel;3355;CRISTAL MASTER IND E COM (E);;2017-03-09 12:39:41;-23.0; -47.0;
+joel;3372;SOCELPLAST INDL DE PLASTICOS (B);(ATC) Assistencia Tecnica ;2017-03-09 12:40:58;-23.0; -47.0;1
+(AUSEN) Cliente Ausente 
+joel;3349;KRONA TUBOS E CONEXOES S A (B);(ATC) Assistencia Tecnica ;2017-03-09 12:41:25;-23.0; -47.0;1
+(AUSEN) Cliente Ausente 
+joel;3349;KRONA TUBOS E CONEXOES S A (B);(BIMESTRAL) Visita Bimestral ;2017-03-09 12:41:53;-23.0; -47.0;2
+(AVALR) Analise de preco 
+joel;3349;KRONA TUBOS E CONEXOES S A (B);(PF-DB) Pedido Fechado (Dacarto) ;2017-03-09 12:42:11;-23.0; -47.0;1
+
+joel;3349;KRONA TUBOS E CONEXOES S A (B);(REAGEN) Reagendar ;2017-03-09 12:42:31;-23.0; -47.0;3
+
+joel;3349;KRONA TUBOS E CONEXOES S A (B);(PF-DB) Pedido Fechado (Dacarto) ;2017-03-09 12:42:46;-23.0; -47.0;1
+(TRIMESTRAL) Visita Trimestral 
+joel;3349;KRONA TUBOS E CONEXOES S A (B);(PF-CO) Pedido Fechado (Concorrencia) ;2017-03-09 12:43:04;-23.0; -47.0;1
+(CANCEL) Cancelada 
+joel;3349;KRONA TUBOS E CONEXOES S A (B);;2017-03-09 12:44:11;-23.0; -47.0;
+joel;3349;KRONA TUBOS E CONEXOES S A (B);;2017-03-09 12:44:28;-23.0; -47.0;
+joel;3349;KRONA TUBOS E CONEXOES S A (B);;2017-03-09 12:44:44;-23.0; -47.0;
+joel;3349;KRONA TUBOS E CONEXOES S A (B);(AUSEN) Cliente Ausente ;2017-03-09 12:45:27;-23.0; -47.0;2
+
+joel;3349;KRONA TUBOS E CONEXOES S A (B);(AVALR) Analise de preco ;2017-03-09 12:45:42;-23.0; -47.0;1
+
+joel;3349;KRONA TUBOS E CONEXOES S A (B);(REAGEN) Reagendar ;2017-03-09 12:46:03;-23.0; -47.0;3
+
+joel;3349;KRONA TUBOS E CONEXOES S A (B);(CANCEL) Cancelada ;2017-03-09 12:46:23;-23.0; -47.0;2
+
+joel;3349;KRONA TUBOS E CONEXOES S A (B);(ATC) Assistencia Tecnica ;2017-03-09 12:46:36;-23.0; -47.0;1
+
+joel;3349;KRONA TUBOS E CONEXOES S A (B);(BIMESTRAL) Visita Bimestral ;2017-03-09 12:47:17;-23.0; -47.0;2
+
+joel;3349;KRONA TUBOS E CONEXOES S A (B);(PF-DB) Pedido Fechado (Dacarto) ;2017-03-09 12:48:11;-23.0; -47.0;1
+
+joel;3349;KRONA TUBOS E CONEXOES S A (B);Chegada;2017-03-09 12:48:37;-23.0; -47.0;1
+joel;3349;KRONA TUBOS E CONEXOES S A (B);(REAGEN) Reagendar ;2017-03-09 12:48:43;-23.0; -47.0;3
+
+joel;3349;KRONA TUBOS E CONEXOES S A (B);Saida;2017-03-09 12:48:45;-23.0; -47.0;3
+joel;3348;Dacarto  Servico Interno ();(TRIMESTRAL) Visita Trimestral ;2017-03-09 12:49:00;-23.0; -47.0;2
+
+joel;3348;Dacarto  Servico Interno ();;2017-03-09 12:51:28;-23.0; -47.0;
+joel;3348;Dacarto  Servico Interno ();;2017-03-09 12:51:48;-23.0; -47.0;
+joel;3348;Dacarto  Servico Interno ();;2017-03-09 12:52:00;-23.0; -47.0;
+joel;3348;Dacarto  Servico Interno ();;2017-03-09 12:52:20;-23.0; -47.0;
+joel;3348;Dacarto  Servico Interno ();;2017-03-09 12:52:38;-23.0; -47.0;
+joel;3348;Dacarto  Servico Interno ();(AVALR) Analise de preco ;2017-03-09 12:53:15;-23.0; -47.0;1
+
+joel;3348;Dacarto  Servico Interno ();(CANCEL) Cancelada ;2017-03-09 12:53:30;-23.0; -47.0;2
+
+joel;3348;Dacarto  Servico Interno ();(BIMESTRAL) Visita Bimestral ;2017-03-09 12:53:44;-23.0; -47.0;2
+
+joel;3348;Dacarto  Servico Interno ();(REAGEN) Reagendar ;2017-03-09 12:54:07;-23.0; -47.0;3
+
+joel;3348;Dacarto  Servico Interno ();(AUSEN) Cliente Ausente ;2017-03-09 12:54:30;-23.0; -47.0;2
+
+joel;3357;AKATO IND PROD CONST CIVIL (E);(NEG) Em Negociacao ;2017-03-09 18:35:36;GPS Desligado!;;1
+
+joel;8136;Dacarto  Servico Interno ();Saida;2017-04-17 18:25:39;-23.0; -47.0;3
+joel;8136;Dacarto  Servico Interno ();(PF-DB) Pedido Fechado (Dacarto) ;2017-04-17 18:37:20;-23.0; -47.0;1
+
+joel;8136;Dacarto  Servico Interno ();(ROT) Rotina ;2017-04-17 18:37:38;-23.0; -47.0;1
+
+joel;8137;Home Office ();(AUSEN) Cliente Ausente ;2017-04-17 18:43:47;-23.0; -47.0;2
+
+joel;8137;Home Office ();(PF-DB) Pedido Fechado (Dacarto) ;2017-04-17 18:44:11;-23.0; -47.0;1
+
+joel;8140;VIQUA INDUSTRIA DE PLASTICOS (A);(REAGEN) Reagendar ;2017-04-18 10:49:45;-23.0; -47.0;3
+
+joel;8137;Home Office ();Chegada;2017-04-19 11:49:27;-23.0; -47.0;1
+joel;8136;Dacarto  Servico Interno ();(ROT) Rotina ;2017-04-19 12:00:24;-23.0; -47.0;1
+
+joel;8138;Dacarto  Servico Interno ();(PF-DB) Pedido Fechado (Dacarto) ;2017-04-19 12:04:09;-23.0; -47.0;1
+
+joel;8149;BRASIL SUL EMBALAGENS (A);(AVALR) Analise de preco ;2017-04-25 14:47:59;-23.0; -47.0;1
+
+joel;8143;ILPEA DO BRASIL (B);(AUSEN) Cliente Ausente ;2017-04-25 14:48:52;-23.0; -47.0;2
+

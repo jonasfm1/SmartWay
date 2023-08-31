@@ -1,0 +1,743 @@
+	body{
+		
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 11px;
+	}
+
+
+	#lista  ul {
+		
+		text-align: left;
+		padding: 0px;
+		margin: 0px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 11px;
+	}
+
+	#lista li:nth-child(even) {height: 17px; background: #FFF}
+	#lista li:nth-child(odd) {height: 17px; background: #ebf5ff}
+
+	#lista li{
+		width: 2251px;
+		height: 21px;
+		list-style: none;
+		cursor: move;
+	}
+	
+	#linha_table_01{
+		
+		position: absolute;
+		left: 0px;
+		
+		
+		display: flex;
+	}
+	
+	#linha_table_01_x{
+		
+		position: absolute;
+		left: 0px;
+		
+		
+		display: flex;
+	}
+	
+	#linha_table_02_x{
+		left: 81px;
+		position: absolute;
+		width: 29px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #589bd4;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		}
+	
+	#linha_table_03_x{
+		left: 112px;
+		position: absolute;
+		width: 100px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #589bd4;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#linha_table_04_x{
+		left: 213px;
+		position: absolute;
+		width: 200px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #589bd4;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#linha_table_05_x{
+		left: 414px;
+		position: absolute;
+		width: 100px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #589bd4;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#linha_table_06_x{
+		left: 515px;
+		position: absolute;
+		width: 300px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #589bd4;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#linha_table_07_x{
+		left: 816px;
+		position: absolute;
+		width: 300px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #589bd4;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#linha_table_08_x{
+		left: 1117px;
+		position: absolute;
+		width: 250px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #589bd4;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#linha_table_09_x{
+		left: 1368px;
+		position: absolute;
+		width: 150px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #589bd4;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#linha_table_10_x{
+		left: 1519px;
+		position: absolute;
+		width: 150px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #589bd4;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#linha_table_11_x{
+		left: 1670px;
+		position: absolute;
+		width: 150px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #589bd4;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#linha_table_12_x{
+		left: 1821px;
+		position: absolute;
+		width: 70px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #FF0000;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#linha_table_13_x{
+		left: 1892px;
+		position: absolute;
+		width: 40px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #589bd4;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#linha_table_14_x{
+		left: 1933px;
+		position: absolute;
+		width: 40px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #FF0000;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#linha_table_15_x{
+		left: 1974px;
+		position: absolute;
+		width: 70px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #589bd4;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#linha_table_16_x{
+		left: 2045px;
+		position: absolute;
+		width: 70px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #589bd4;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#linha_table_17_x{
+		left: 2116px;
+		position: absolute;
+		width: 70px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #589bd4;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	#linha_table_18_x{
+		left: 2186px;
+		position: absolute;
+		width: 64px;
+		border: 1px solid;
+		border-color: black;
+		height: 23px;
+		background-color: #589bd4;
+		color: white;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+
+	#right-panel {
+		line-height: 12px;
+		padding-left: 10px;
+	}
+
+	#right-panel select, #right-panel input {
+		font-size: 15px;
+	}
+
+	#right-panel select {
+		width: 100%;
+	}
+
+	#right-panel i {
+		font-size: 12px;
+	}
+
+	#map {
+		position: relative;
+		height: 650px;
+		width: 1820px;
+	}
+
+	#directions-panel {
+	}
+
+	.rota{
+	width: 33px;
+	height: 10px;
+
+	}
+	.veiculo{
+	width: 60px;
+
+	}
+
+
+
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+position: relative;
+z-index: 2;
+cursor: pointer;
+font-size:10px;
+
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+visibility: hidden;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+opacity: 0;
+pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+position: absolute;
+bottom: 24px;
+left:92px;
+margin-bottom: 5px;
+margin-left: -80px;
+padding: 7px;
+width: 120px;
+
+background-color: #000;
+background-color: hsla(0, 0%, 20%, 0.9);
+color: #fff;
+content: attr(data-tooltip);
+text-align: center;
+font-size: 11px;
+line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+position: absolute;
+bottom: 24px;
+left: 96px;
+margin-left: -78px;
+width: 0;
+border-top: 5px solid #000;
+border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+border-right: 5px solid transparent;
+border-left: 5px solid transparent;
+content: " ";
+
+line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+	visibility: visible;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1;
+}
+
+#sidebar {
+	display: none;
+	position: absolute;
+	width: 380px;
+	height: 100px;
+	z-index: 99999;
+	right:0px;
+	top: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 10px;
+	background-color:#FFFFFF;
+	padding:50px;
+	color:#000000;
+	border: 1px solid #589bd4;
+}
+
+	.help:hover #sidebar {
+		display:block;
+
+
+}
+
+	#help {
+		position: absolute;
+		width: 50px;
+		height: 51px;
+		right:134px;
+		top: -25px;
+		cursor: pointer;
+		z-index:3;
+}
+
+
+
+	.jquery-waiting-base-container {
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	display: block;
+	z-index: 999999;
+	opacity: 0.95;
+	-moz-opacity: 0.95;
+	filter: alpha(opacity = 95);
+	background-color:#FFF;
+
+	background-image: url("../imgs/loading.gif");
+	background-repeat: no-repeat;
+	background-position: 50% 35%;
+	padding-top: 250px;
+	}
+
+
+
+	#apDiv13_todos {
+	position: absolute;
+	width: 404px;
+	height: 32px;
+	z-index: 1;
+	right: 20px;
+	top: 6px;
+	}
+
+
+	#apDiv13b {
+	position: absolute;
+	width: 90px;
+	height: 32px;
+	z-index: 1;
+	right:-10px;
+	top: 0px;
+	}
+
+
+	#apDiv13b input[type=submit] {
+	color: #fff;
+	border: 1px solid #589bd4;
+	background: #589bd4;
+
+
+	font-size:13px;
+
+	height: 30px;
+	width:100px;
+	font-weight:bold;
+	}
+
+	#apDiv13b input[type=submit]:hover{
+	background: #2867b1;
+	border: 1px solid #2867b1;
+	cursor:pointer;
+	}  
+
+
+
+	#apDiv11 {
+	position: absolute;
+	width: auto;
+
+	right: 5px;
+	height: 100%;
+	z-index: 0;
+	left: 90px;
+	top: 61px;
+
+
+
+	}
+	#apDiv12 {
+	position: relative;
+	z-index: 1;
+	left: 0px;
+	top: 20px;
+
+	width: 100%;
+	overflow: auto;
+
+
+	background-color: #FFFFFF;
+
+
+	}
+
+	#total{
+	position:relative;
+
+	width: 100%;
+
+	overflow: false;
+	background-color: #FFF;
+	border-color:#579bd3;
+
+
+	}
+	#apDiv13 {
+	position: absolute;
+	width: 90px;
+	height: 32px;
+	z-index: 1;
+	left: 1188px;
+	top: 623px;
+	}
+
+	input[type=submit] {  
+	color: #fff;
+	border: 1px solid #589bd4;
+	background: #589bd4;
+	font-size:11px;
+	height: 30px;
+	width:150px;
+	}  
+
+	input[type=submit]:hover{
+	background: #2867b2;
+	border: 1px solid #2867b2;
+	cursor:pointer;
+	}  
+
+
+	table.bordasimples {
+	border-collapse: collapse;
+	}
+
+	table.bordasimples tr td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+
+	padding: 2px 2px 2px 2px;
+
+	}
+	/*css global tabela*/
+	.bordasimples
+		{border-collapse: collapse;}
+
+	/*colocando bordas nas linhas*/
+	.bordasimples tr
+		{border:1px black solid;}
+
+	/*Definido cor das linhas pares*/
+	.bordasimples tr:nth-child(even) 
+		{background: #FFF}
+
+	/*Definindo cor das Linhas impáres*/
+	.bordasimples tr:nth-child(odd) 
+		{background: #EEE}  
+
+	#apDiv1 {
+		position: absolute;
+		width: 100%;
+		height: 33px;
+		z-index: -1;
+		left: 0px;
+		top: 0px;
+		background-color: #589bd4;
+	}
+
+	#apDiv2 {
+		position: absolute;
+		width: 76px;
+		height: 1000px;
+		z-index: 2;
+		left: 0px;
+		top: 33px;
+		background-color: #589bd4;
+	}
+
+	#apDiv3 {
+		position: absolute;
+		width: 76px;
+		height: 53px;
+		z-index: 3;
+		top: 0px;
+		left: 0px;
+	}
+
+	#apDiv4 {
+		position: absolute;
+		width: 76px;
+		height: 47px;
+		z-index: 4;
+		left: 15px;
+		top: 184px;
+	}
+
+	#apDiv5 {
+		position: absolute;
+		width: 76px;
+		height: 65px;
+		z-index: 5;
+		left: 0px;
+		top: 102px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		color: #FFF;
+		text-transform: uppercase;
+	}
+
+	#apDiv6 {
+		position: absolute;
+		width: 76px;
+		height: 47px;
+		z-index: 4;
+		left: 15px;
+		top: 238px;
+	}
+
+	#apDiv7 {
+		position: absolute;
+		width: 76px;
+		height: 47px;
+		z-index: 4;
+		left: 15px;
+		top: 292px;
+	}
+
+	#apDiv8 {
+		position: absolute;
+		width: 76px;
+		height: 47px;
+		z-index: 4;
+		left: 15px;
+		top: 346px;
+	}
+
+	#apDiv9 {
+		position: absolute;
+		width: 76px;
+		height: 47px;
+		z-index: 4;
+		left: 15px;
+		top: 400px;
+	}
+
+	#apDiv5 table tr td {
+		color: #FFF;
+
+	}
+
+	#apDiv10 {
+		position: absolute;
+		width: 76px;
+		height: 41px;
+		z-index: 6;
+		left: 27px;
+		top: 452px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		color: #FFF;
+		line-height:15px;
+	}
+
+	#apDiv14 {
+		position: absolute;
+		width: 672px;
+		height: 29px;
+		z-index: 7;
+		left: 38px;
+		top: 77px;
+		font: Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		line-height: 16px;
+	}
+
+	#div_recal {
+		position: absolute;
+		width: 200;
+		height: 100;
+		z-index: 999999999;
+		right: 110px;
+		top: 6px;
+		font: Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		line-height: 16px;
+	}
+
+	#botao{
+		position: absolute;
+		left: 1150px;
+		top: 120px;
+		z-index:9998;
+	}
+
+	#popup{
+		position: absolute;
+		width: 100%;
+		left: 0px;
+		top: 0px;
+	}
+
+	#pag1{
+		position: absolute;
+		width: 100%;
+		left: 0px;
+		top: 0px;
+		height:100%;
+		z-index:9997;
+	}  
+
+
